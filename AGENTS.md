@@ -142,8 +142,8 @@ APK de ~1,3 MB, sin dependencias (nada de AndroidX ni Compose a propósito).
    si anima con fluidez en el armv7 y cuánto tarda el primer fotograma tras arrancar o cambiar el tamaño (reduce 12 imágenes una vez por tamaño; no medido en la TV).
 3. **Mejoras posibles, si el usuario las quiere:** dibujar los muslos y una vista de espaldas propia (ahora el visor se cambia por verde); pulir la costura del codo
    al doblarlo mucho (hoy se tapa con un disco gris); un sprite de ojos/visor encendido distinto en vez de la capa de brillo; cargar los demás modelos con sprites.
-4. **Decisiones del usuario aún abiertas:** licencia del repositorio (ahora no tiene ninguna: por defecto todos los derechos reservados) y qué hacer con el arte, que se
-   inspira en Doom (id Software/Bethesda).
+4. **Licencia: MIT** (archivo `LICENSE`, titular `Enrique179`, sin nombre real a propósito). El README aclara que no concede derechos sobre las marcas de Doom
+   (id Software/Bethesda). Decisión aún abierta: si el arte, que se inspira en ese personaje, debe seguir en el repositorio público.
 5. **Si cambian los sprites originales:** `python scripts/sprites.py <carpeta con las 6 imágenes>`, pasar `.\scripts\test-rust.ps1`, `.\scripts\build-rust.ps1` y desplegar.
 
 ## Cómo retomar en una sesión nueva

@@ -28,6 +28,10 @@ Los comandos, la estructura del código y las decisiones de diseño están en **
 
 Se usa bajo tu propia responsabilidad: instalar un launcher y un servicio de accesibilidad en una TV cambia su comportamiento. `restaurar_tv.ps1` la devuelve al launcher de Google TV.
 
+## Licencia
+
+[MIT](LICENSE): el código y los dibujos del autor se pueden usar, copiar y modificar libremente.
+
 ## Aviso sobre el Doom Slayer
 
-Es un proyecto de aficionado, sin relación con id Software ni Bethesda. *Doom* y *Doom Slayer* son marcas de sus propietarios. Los sprites de `core/assets/sprites_png` son dibujos propios del autor inspirados en el personaje.
+Es un proyecto de aficionado, sin relación con id Software ni Bethesda. *Doom* y *Doom Slayer* son marcas de sus propietarios, y la licencia MIT no concede ningún derecho sobre ellas. Los sprites de `core/assets/sprites_png` son dibujos propios del autor inspirados en el personaje.
