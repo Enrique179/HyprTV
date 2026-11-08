@@ -1,0 +1,11 @@
+[workspace]
+members = ["core"]
+resolver = "2"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+# unwind (no abort): los puntos de entrada JNI capturan los pánicos para no tumbar el servicio de accesibilidad.
+panic = "unwind"
+strip = true

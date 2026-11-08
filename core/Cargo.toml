@@ -1,0 +1,16 @@
+[package]
+name = "hyprcore"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "hyprcore"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+# Solo rasterizado por CPU; sin PNG en el binario de la TV (el ejemplo `preview` lo activa por su cuenta).
+tiny-skia = { version = "0.11", default-features = false, features = ["std", "simd"] }
+jni = "0.21"
+
+[dev-dependencies]
+tiny-skia = { version = "0.11", features = ["png-format"] }

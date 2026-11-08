@@ -1,0 +1,33 @@
+# Compilación y cachés (se regeneran)
+.gradle/
+.kotlin/
+build/
+/target/
+*.apk
+*.so
+
+# Rutas y datos de esta máquina
+local.properties
+.idea/
+.vscode/
+.claude/
+
+# Cosas de la TV del autor: ajustes personales y lista de paquetes de su modelo (se quedan en el disco, no se publican)
+config*.ini
+tv_paquetes_eliminados.txt
+core/backup/
+
+# Por si algún día hay firma de release, claves o entornos: nunca al repositorio
+*.jks
+*.keystore
+*.pem
+*.key
+.env
+.env.*
+keystore.properties
+
+# Restos
+*.log
+*.bak
+*.tmp
+__pycache__/

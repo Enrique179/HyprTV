@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HyprTV</string>
+    <string name="settings_label">Ajustes HyprTV</string>
+    <string name="service_desc">Dibuja el borde de foco y la mascota sobre la pantalla, lee el título del elemento enfocado para sus chistes y escucha los atajos del mando. Todo se queda en la TV: la app no tiene permiso de Internet.</string>
+</resources>
